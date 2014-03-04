@@ -27,13 +27,16 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [xView setValue:335];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)reDraw:(id)sender {
+    [xView setValue:335];
 }
 
 @end

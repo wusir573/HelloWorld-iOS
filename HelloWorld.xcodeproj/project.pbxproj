@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781670B718C464780067340C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 781670B618C464780067340C /* Settings.bundle */; };
 		782FFFD618BC930A002AF0E8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782FFFD418BC9309002AF0E8 /* RootViewController.m */; };
 		782FFFD718BC930A002AF0E8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782FFFD518BC9309002AF0E8 /* RootViewController.xib */; };
 		784BC1FA18BEDF2B0075E848 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 784BC1F918BEDF2B0075E848 /* ViewPagerController.m */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781670B618C464780067340C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		782FFFD318BC9309002AF0E8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		782FFFD418BC9309002AF0E8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		782FFFD518BC9309002AF0E8 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		781670B518C464250067340C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				781670B618C464780067340C /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		784BC1F718BEDF2B0075E848 /* ICViewPager */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +185,7 @@
 		78654C4518BC371C00509AB2 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				781670B518C464250067340C /* Resources */,
 				784BC1F718BEDF2B0075E848 /* ICViewPager */,
 				785C6A4C18BDD7A600EC1256 /* Model */,
 				78A71F4518BC7B4A009C58DE /* CocoaAsyncSocket */,
@@ -335,6 +346,7 @@
 			files = (
 				78813C5518BC3958005CFA5C /* MainController.xib in Resources */,
 				78654C5818BC371D00509AB2 /* Images.xcassets in Resources */,
+				781670B718C464780067340C /* Settings.bundle in Resources */,
 				784BC20918BEE8B40075E848 /* ICViewPagerContentController.xib in Resources */,
 				782FFFD718BC930A002AF0E8 /* RootViewController.xib in Resources */,
 				785C6A4B18BDCA1700EC1256 /* HttpViewController.xib in Resources */,

@@ -309,7 +309,11 @@
 -(void) setValue:(int) value {
     NSLog(@"setValue");
     iValue = value;
-    [self setNeedsLayout];
+    //调用该函数后，才会重绘
+    [self sizeToFit];
+    [self setNeedsDisplay];
 }
+
+
 
 @end
